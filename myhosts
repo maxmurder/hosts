@@ -32,4 +32,8 @@ ff02::2 ip6-allrouters
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 pubads.g.doubleclick.net
 
+#Others
+0.0.0.0 api.facebook.com
+0.0.0.0 api.twitter.com
+
 # End of custom host records.
