@@ -1,4 +1,30 @@
 # Custom host records are listed here.
 
+#Defaults
+
+127.0.0.1	localhost
+127.0.1.1	rusty-MS-7640
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+#/Defaults
+
+# Spotify
+0.0.0.0 media-match.com
+0.0.0.0 open.spotify.com
+0.0.0.0 desktop.spotify.com
+0.0.0.0 audio2.spotify.com
+0.0.0.0 www.omaze.com
+0.0.0.0 omaze.com
+0.0.0.0 bounceexchange.com
+0.0.0.0 core.insightexpressai.com
+0.0.0.0 s0.2mdn.net
+0.0.0.0 v.jwpcdn.com
+0.0.0.0 d2gi7ultltnc2u.cloudfront.net
 
 # End of custom host records.
