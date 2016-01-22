@@ -33,9 +33,14 @@ ff02::2 ip6-allrouters
 0.0.0.0 omaze.com
 0.0.0.0 bounceexchange.com
 0.0.0.0 core.insightexpressai.com
+0.0.0.0 content.bitsontherun.com
 0.0.0.0 s0.2mdn.net
 0.0.0.0 v.jwpcdn.com
 0.0.0.0 d2gi7ultltnc2u.cloudfront.net
+0.0.0.0 www.googleadservices.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pubads.g.doubleclick.net
 
 # End of custom host records.
 # This hosts file is brought to you by Dan Pollock and can be found at
