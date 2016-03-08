@@ -9,8 +9,6 @@
 127.0.0.1	local
 #fe80::1%lo0	localhost
 
-#/Defaults
-
 # Spotify
 0.0.0.0 media-match.com
 0.0.0.0 open.spotify.com
@@ -28,9 +26,5 @@
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 pubads.g.doubleclick.net
-
-#Others
-0.0.0.0 api.facebook.com
-0.0.0.0 api.twitter.com
 
 # End of custom host records.
