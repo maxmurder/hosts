@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Jan 19th, 2016 at 18:19
+# Last updated: Mon, 07 Mar 2016 at 17:54:46 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -33,10 +33,11 @@
 #                       or "C:\winnt\system32\drivers\etc\hosts"
 # For Windows 7 and Vista use "C:\windows\system32\drivers\etc\hosts"
 #			or "%systemroot%\system32\drivers\etc\hosts"
-# For Windows 8 use "C:\Windows\System32\drivers\etc\hosts"
+# For Windows 8 and Windows 10 use "C:\Windows\System32\drivers\etc\hosts"
 # 		You may need to tell Windows Defender to ignore this path
 # 		see: http://support.microsoft.com/kb/2764944
 # You may have to use Notepad and "Run as Administrator"
+#
 # For Linux, Unix, or OS X place this file at "/etc/hosts" or on some
 #    systems at "/private/etc/hosts". You will require root access to do
 #    this. Saving this file to "~/hosts" will allow you to run something
@@ -373,6 +374,7 @@
 0.0.0.0 ai087.insightexpress.com
 0.0.0.0 ai113.insightexpressai.com
 0.0.0.0 ai125.insightexpressai.com
+0.0.0.0 alert.mac-notification.com
 0.0.0.0 alpha.easy-hit-counters.com
 0.0.0.0 amateur.xxxcounter.com
 0.0.0.0 amer.hops.glbdns.microsoft.com
@@ -385,6 +387,8 @@
 0.0.0.0 apac.rel.msn.com
 0.0.0.0 api.adsymptotic.com
 0.0.0.0 api.bizographics.com
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 api.infinario.com
 0.0.0.0 api.tumra.com
 0.0.0.0 apprep.smartscreen.microsoft.com
 0.0.0.0 app.yesware.com
@@ -666,6 +670,7 @@
 0.0.0.0 digistats.westjet.com
 0.0.0.0 dimeprice.com		# "spam bugs"
 0.0.0.0 directads.mcafee.com
+0.0.0.0 dkb01.webtrekk.net
 0.0.0.0 dotcomsecrets.com
 0.0.0.0 dpbolvw.net
 0.0.0.0 dpm.demdex.net
@@ -1022,6 +1027,7 @@
 0.0.0.0 pix02.revsci.net
 0.0.0.0 pix03.revsci.net
 0.0.0.0 pix04.revsci.net
+0.0.0.0 pixel-geo.prfct.co
 0.0.0.0 pixel.invitemedia.com
 0.0.0.0 pixel.tapad.com
 0.0.0.0 pmg.ad-logics.com
@@ -1203,6 +1209,7 @@
 0.0.0.0 static.kibboko.com
 0.0.0.0 static.smni.com		# Santa Monica - popunders
 0.0.0.0 statik.topica.com
+0.0.0.0 statique.secureguards.eu
 0.0.0.0 statistics.dynamicsitestats.com
 0.0.0.0 statistics.elsevier.nl
 0.0.0.0 statistics.reedbusiness.nl
@@ -1414,6 +1421,7 @@
 0.0.0.0 u920.31.spylog.com
 0.0.0.0 u977.40.spylog.com
 0.0.0.0 udc.msn.com
+0.0.0.0 uip.semasio.net
 0.0.0.0 uk.cqcounter.com
 0.0.0.0 uk.sitestat.com
 0.0.0.0 ultimatecounter.com
@@ -1656,6 +1664,8 @@
 0.0.0.0 binsservicesonline.info
 0.0.0.0 blackhat.be
 0.0.0.0 blenz-me.net
+0.0.0.0 bluescreenalert.com
+0.0.0.0 bluescreenerrors.net
 0.0.0.0 bnvxcfhdgf.blogspot.com.es
 0.0.0.0 b.oix.com
 0.0.0.0 b.oix.net
@@ -1685,7 +1695,6 @@
 0.0.0.0 c.oix.com
 0.0.0.0 c.oix.net
 0.0.0.0 conduit.com
-0.0.0.0 counter.yadro.ru
 0.0.0.0 cra-arc.gc.ca.bioder.com.tr
 0.0.0.0 cra-arc-gc-ca.noads.biz
 0.0.0.0 custom3hurricanedigitalmedia.com
@@ -1796,6 +1805,7 @@
 0.0.0.0 malware-live-pro-scanv1.com
 0.0.0.0 maxi4.firstvds.ru
 0.0.0.0 megasurfin.com
+0.0.0.0 miercuri.gq
 0.0.0.0 monitor.phorm.com
 0.0.0.0 monkeyball.osa.pl
 0.0.0.0 movies.701pages.com
@@ -1912,7 +1922,6 @@
 0.0.0.0 roifmd.info
 0.0.0.0 romdiscover.com
 0.0.0.0 rtc.romdiscover.com
-0.0.0.0 r.turn.com
 0.0.0.0 russian-sex.com
 0.0.0.0 s4d.in
 0.0.0.0 safedownloadsrus166.com
@@ -1925,6 +1934,10 @@
 0.0.0.0 search.conduit.com
 0.0.0.0 search.privitize.com
 0.0.0.0 securedliveuploads.com
+0.0.0.0 securitas232maximus.xyz
+0.0.0.0 securitas25maximus.xyz
+0.0.0.0 securitas493maximus.xyz
+0.0.0.0 securitas611maximus.xyz
 0.0.0.0 securityandroidupdate.dinamikaprinting.com
 0.0.0.0 securityscan.us
 0.0.0.0 sexymarissa.net
@@ -1952,6 +1965,7 @@
 0.0.0.0 supernaturalart.com
 0.0.0.0 superprotection10.com
 0.0.0.0 sverd.net
+0.0.0.0 sweet55ium55.com
 0.0.0.0 system-kernel-disk-errorx001dsxx-microsoft-windows.55errors5353.net
 0.0.0.0 tahoesup.com
 0.0.0.0 tanieaukcje.com
@@ -2126,7 +2140,6 @@
 0.0.0.0 xponlinescanner.com
 0.0.0.0 xvrxyzba253.hotmail.ru
 0.0.0.0 xxyyzz.youcanoptout.com
-0.0.0.0 yadro.ru
 0.0.0.0 ymail-activate1.bugs3.com
 0.0.0.0 youcanoptout.com
 0.0.0.0 youcanoptout.net
@@ -4839,6 +4852,7 @@
 0.0.0.0 ads.gawker.com
 0.0.0.0 ads.gettools.com
 0.0.0.0 ads.gigaom.com.php5-12.websitetestlink.com
+0.0.0.0 ads.glispa.com
 0.0.0.0 ads.globeandmail.com
 0.0.0.0 ads.globo.com
 0.0.0.0 ads.gmg.valueclick.net
@@ -5255,6 +5269,7 @@
 0.0.0.0 ads.specificmedia.com
 0.0.0.0 ads.specificpop.com
 0.0.0.0 ads.spilgames.com
+0.0.0.0 ads.spintrade.com
 0.0.0.0 ads.sptimes.com
 0.0.0.0 ads.spymac.net
 0.0.0.0 ads.stackoverflow.com
@@ -5410,6 +5425,7 @@
 0.0.0.0 ads.xtramsn.co.nz
 0.0.0.0 ads.xxxbunker.com
 0.0.0.0 ads.yahoo.com
+0.0.0.0 ads.yieldmedia.net
 0.0.0.0 ads.yimg.com
 0.0.0.0 ads.yimg.com.edgesuite.net
 0.0.0.0 ads.yldmgrimg.net
@@ -5484,6 +5500,7 @@
 0.0.0.0 adverterenbijnh.nl
 0.0.0.0 adverterenbijsbs.nl
 0.0.0.0 adverteren.vakmedianet.nl
+0.0.0.0 advertere.zamunda.net
 0.0.0.0 advert.gittigidiyor.com
 0.0.0.0 advertise.com
 0.0.0.0 advertisers.federatedmedia.net
@@ -5728,6 +5745,7 @@
 0.0.0.0 askmen.thruport.com
 0.0.0.0 asm2.z1.adserver.com
 0.0.0.0 asm3.z1.adserver.com
+0.0.0.0 asmedia.adsupplyssl.com
 0.0.0.0 asn.advolution.de
 0.0.0.0 asn.cunda.advolution.biz
 0.0.0.0 a.ss34.on9mail.com
@@ -5761,6 +5779,7 @@
 0.0.0.0 auslieferung.commindo-media-ressourcen.de
 0.0.0.0 AUSpolice.com
 0.0.0.0 aussiemethod.com
+0.0.0.0 aussieroadtosuccess.com
 0.0.0.0 austria1.adverserve.net
 0.0.0.0 autocontext.begun.ru
 0.0.0.0 automotive-offer.com
@@ -5780,6 +5799,7 @@
 0.0.0.0 b1.adbrite.com
 0.0.0.0 b1.azjmp.com
 0.0.0.0 b2b.filecloud.me
+0.0.0.0 babanetwork.adk2x.com
 0.0.0.0 babycenter.tt.omtrdc.net
 0.0.0.0 b.admob.com
 0.0.0.0 b.ads2.msn.com
@@ -6111,6 +6131,7 @@
 0.0.0.0 cdn.adnxs.com
 0.0.0.0 cdn.adplxmd.com
 0.0.0.0 cdnads.cam4.com
+0.0.0.0 cdn.adservingsolutionsinc.com
 0.0.0.0 cdn.ads.ookla.com
 0.0.0.0 cdn.adsrvmedia.net
 0.0.0.0 cdn.amateurmatch.com
@@ -6158,6 +6179,7 @@
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.wg.uproxx.com
 0.0.0.0 cdnw.ringtonepartner.com
+0.0.0.0 cdn.yieldmedia.net
 0.0.0.0 cdn.yottos.com
 0.0.0.0 cdn.zeusclicks.com
 0.0.0.0 cds.adecn.com
@@ -6457,6 +6479,7 @@
 0.0.0.0 d.adserve.com
 0.0.0.0 dads.new.digg.com
 0.0.0.0 d.ads.readwriteweb.com
+0.0.0.0 d.adxcore.com
 #0.0.0.0 da.feedsportal.com	# interferes with TechRepublic email newsletters
 0.0.0.0 d.agkn.com
 0.0.0.0 daily-saver.com
@@ -6546,6 +6569,7 @@
 0.0.0.0 downloadmpplayer.com
 0.0.0.0 downloads.larivieracasino.com
 0.0.0.0 downloads.mytvandmovies.com
+0.0.0.0 download.yesmessenger.com
 0.0.0.0 dqs001.adtech.de
 0.0.0.0 dqs001.adtech.fr
 0.0.0.0 dqs001.adtech.us
@@ -6585,6 +6609,8 @@
 0.0.0.0 ebayadvertising.triadretail.net
 0.0.0.0 ebiads.ebiuniverse.com
 0.0.0.0 eblastengine.upickem.net
+0.0.0.0 eclkmpbn.com
+0.0.0.0 eclkmpsa.com
 0.0.0.0 ecomadserver.com
 0.0.0.0 ecs1.engageya.com
 0.0.0.0 eddamedia.linkpulse.com
@@ -6782,7 +6808,7 @@
 0.0.0.0 gbanners.hornymatches.com
 0.0.0.0 gbp.ebayadvertising.triadretail.net
 0.0.0.0 gcads.osdn.com
-0.0.0.0 gcdn.2mdn.net
+0.0.0.0 gcdn.2mdn.net	#Comment this line to allow YouTube ad tracking.
 0.0.0.0 gc.gcl.ru
 0.0.0.0 gcir.gannett-tv.com
 0.0.0.0 gcirm2.indystar.com
@@ -6957,9 +6983,11 @@
 0.0.0.0 gwallet.com
 0.0.0.0 gw.youmi.net
 0.0.0.0 gx-in-f109.1e100.net
+0.0.0.0 hadik.info
 0.0.0.0 h.admob.com
 0.0.0.0 h-afnetwww.adshuffle.com
 0.0.0.0 halfords.ukrpts.net
+0.0.0.0 haouzy.info
 0.0.0.0 happydiscountspecials.com
 0.0.0.0 harvest176.adgardener.com
 0.0.0.0 harvest284.adgardener.com
@@ -7181,6 +7209,7 @@
 0.0.0.0 insurance-rewardpath.com
 0.0.0.0 intela.com
 0.0.0.0 intelliads.com
+0.0.0.0 intensedigital.adk2x.com
 0.0.0.0 interia.adsearch.adkontekst.pl
 0.0.0.0 internet.billboard.cz
 0.0.0.0 intnet-offer.com
@@ -7263,11 +7292,13 @@
 0.0.0.0 js.goods.redtram.com
 0.0.0.0 js.himediads.com
 0.0.0.0 js.hotkeys.com
+0.0.0.0 js.moatads.com
 0.0.0.0 jsn.dt07.net
 0.0.0.0 js.ru.redtram.com
 0.0.0.0 js.selectornews.com
 0.0.0.0 js.smi2.ru
 0.0.0.0 js.softreklam.com
+0.0.0.0 js.srcsmrtgs.com
 0.0.0.0 js.tongji.linezing.com
 0.0.0.0 js.zevents.com
 0.0.0.0 judo.salon.com
@@ -7286,6 +7317,7 @@
 0.0.0.0 keys.dmtracker.com
 0.0.0.0 keywordblocks.com
 0.0.0.0 keywords.adtlgc.com
+0.0.0.0 khalto.info
 0.0.0.0 kitaramarketplace.com
 0.0.0.0 kitaramedia.com
 0.0.0.0 kitaratrk.com
@@ -7329,6 +7361,7 @@
 0.0.0.0 larivieracasino.com
 0.0.0.0 lasthr.info
 0.0.0.0 lastmeasure.zoy.org
+0.0.0.0 latestsearch.website
 0.0.0.0 latribune.electronicpromotions2015.com
 0.0.0.0 launch.adserver.yahoo.com
 0.0.0.0 layer-ads.de
@@ -7393,6 +7426,7 @@
 0.0.0.0 login.linkpulse.com
 0.0.0.0 log.olark.com
 0.0.0.0 logs.spilgames.com
+0.0.0.0 l.ohmyad.co
 0.0.0.0 looksmartcollect.247realmedia.com
 0.0.0.0 louisvil.app.ur.gcion.com
 0.0.0.0 louisvil.ur.gcion.com
@@ -7429,6 +7463,7 @@
 0.0.0.0 mackeeperapp2.mackeeper.com
 0.0.0.0 mackeeperapp3.mackeeper.com
 0.0.0.0 mackeeperapp.mackeeper.com
+0.0.0.0 mac.system-alert1.com
 0.0.0.0 mad2.brandreachsys.com
 0.0.0.0 madadsmedia.com
 0.0.0.0 m.adbridge.de
@@ -7531,6 +7566,7 @@
 0.0.0.0 mediaupdate41.com
 0.0.0.0 media.ventivmedia.com
 0.0.0.0 media.viwii.net
+0.0.0.0 media.xxxnavy.com
 0.0.0.0 medical-offer.com
 0.0.0.0 medical-rewardpath.com
 0.0.0.0 medleyads.com
@@ -7776,6 +7812,7 @@
 0.0.0.0 obozua.adocean.pl
 0.0.0.0 observer.advertserve.com
 0.0.0.0 obs.nnm2.ru
+0.0.0.0 ocdn.adsterra.com
 0.0.0.0 ocslab.com
 0.0.0.0 offer.alibaba.com
 0.0.0.0 offerfactory.click
@@ -7835,6 +7872,8 @@
 0.0.0.0 optimzedby.rmxads.com
 0.0.0.0 orange.fr-enqueteannuelle.xyz
 0.0.0.0 orange.fr-enqueteofficielle2015.xyz
+0.0.0.0 orange.fr-enqueteofficielle.online
+0.0.0.0 orange.fr-felicitations.xyz
 0.0.0.0 orange.fr-votre-opinion.xyz
 0.0.0.0 orange.fr-votreopinion.xyz
 0.0.0.0 orange.weborama.fr
@@ -7842,6 +7881,7 @@
 0.0.0.0 orientaltrading.com
 0.0.0.0 origin.chron.com
 0.0.0.0 ortaklik.mynet.com
+0.0.0.0 outils.yesmessenger.com
 0.0.0.0 out.popads.net
 0.0.0.0 overflow.adsoftware.com
 0.0.0.0 overlay.ringtonematcher.com
@@ -7882,6 +7922,7 @@
 0.0.0.0 partner03.oingo.com
 0.0.0.0 partner.ah-ha.com
 0.0.0.0 partner.ceneo.pl
+0.0.0.0 partner.googleadservices.com
 0.0.0.0 partner.join.com.ua
 0.0.0.0 partner.magna.ru
 0.0.0.0 partner.pobieraczek.pl
@@ -7993,6 +8034,7 @@
 0.0.0.0 pl.bbelements.com
 0.0.0.0 p.l.qq.com
 0.0.0.0 pl.spanel.gem.pl
+0.0.0.0 pmelon.com
 0.0.0.0 pmstrk.mercadolivre.com.br
 0.0.0.0 pm.w55c.net
 0.0.0.0 p.nexac.com
@@ -8001,6 +8043,7 @@
 0.0.0.0 pol.bbelements.com
 0.0.0.0 pole.6rooms.com
 0.0.0.0 politicalopinionsurvey.com
+0.0.0.0 pool.admedo.com
 0.0.0.0 pool.pebblemedia.adhese.com
 0.0.0.0 pool-roularta.adhese.com
 0.0.0.0 popadscdn.net
@@ -8206,6 +8249,7 @@
 0.0.0.0 regflow.com
 0.0.0.0 regie.espace-plus.net
 0.0.0.0 regio.adlink.de
+0.0.0.0 register.cinematrix.net
 0.0.0.0 rehabretie.com
 0.0.0.0 rek2.tascatlasa.com
 0.0.0.0 reklam-1.com
@@ -8365,6 +8409,7 @@
 0.0.0.0 s.amazon-adsystem.com
 0.0.0.0 samsung3.solution.weborama.fr
 0.0.0.0 sanalreklam.com
+0.0.0.0 sas.decisionnews.com
 0.0.0.0 s.as-us.falkag.net
 0.0.0.0 sat-city-ads.com
 0.0.0.0 s.atemda.com
@@ -8416,6 +8461,7 @@
 0.0.0.0 secure.addthis.com
 0.0.0.0 secure.adnxs.com
 0.0.0.0 secureads.ft.com
+0.0.0.0 secure.bidvertiser.com
 0.0.0.0 secure.bidvertiserr.com
 0.0.0.0 securecontactinfo.com
 0.0.0.0 secure.img-cdn.mediaplex.com
@@ -8805,6 +8851,7 @@
 0.0.0.0 tf.nexac.com
 0.0.0.0 tgpmanager.com
 0.0.0.0 the-binary-trader.biz
+0.0.0.0 themaplemethod.com
 0.0.0.0 the-path-gateway.com
 0.0.0.0 thepiratetrader.com
 0.0.0.0 the-smart-stop.com
@@ -8937,6 +8984,7 @@
 0.0.0.0 ugo.eu-adcenter.net
 0.0.0.0 ui.ppjol.com
 0.0.0.0 uk.adserver.yahoo.com
+0.0.0.0 uk-ads.openx.net
 0.0.0.0 uleadstrk.com
 0.0.0.0 ulic.baidu.com
 0.0.0.0 ultimatefashiongifts.com
@@ -9002,6 +9050,8 @@
 0.0.0.0 venus.goclick.com
 0.0.0.0 ve.tscapeplay.com
 0.0.0.0 vht.tradedoubler.com
+0.0.0.0 viamichelin.cdn11.contentabc.com
+0.0.0.0 viamichelin.media.trafficjunky.net
 0.0.0.0 vibrantmedia.com
 0.0.0.0 vice-ads-cdn.vice.com
 0.0.0.0 vid.atm.youku.com
@@ -9412,6 +9462,7 @@
 0.0.0.0 www.agkn.com
 0.0.0.0 www.alexxe.com
 0.0.0.0 www.allosponsor.com
+0.0.0.0 www.amazing-opportunities.info
 0.0.0.0 www.annuaire-autosurf.com
 0.0.0.0 www.apparelncs.com
 0.0.0.0 www.apparel-offer.com
@@ -9472,6 +9523,7 @@
 0.0.0.0 www.bostonsubwayoffer.com
 0.0.0.0 www.brandrewardcentral.com
 0.0.0.0 www.brandsurveypanel.com
+0.0.0.0 www.brightonclick.com
 0.0.0.0 www.brokertraffic.com
 0.0.0.0 www.budsinc.com
 0.0.0.0 www.bugsbanner.it
@@ -9599,6 +9651,7 @@
 0.0.0.0 www.falkag.de
 0.0.0.0 www.family-offer.com
 0.0.0.0 www.fast-adv.it
+0.0.0.0 www.fastcash-ad.biz
 0.0.0.0 www.fatcatrewards.com
 0.0.0.0 www.feedjit.com
 0.0.0.0 www.feedstermedia.com
@@ -9722,6 +9775,7 @@
 0.0.0.0 www.home-garden-rewardempire.com
 0.0.0.0 www.home-garden-rewardpath.com
 0.0.0.0 www.hooqy.com
+0.0.0.0 www.hotchatdate.com
 0.0.0.0 www.hot-daily-deal.com
 0.0.0.0 www.hotgiftzone.com
 0.0.0.0 www.hotkeys.com
@@ -9812,6 +9866,7 @@
 0.0.0.0 www.lpmxp2026.com
 0.0.0.0 www.lpmxp2027.com
 0.0.0.0 www.lucky-day-uk.com
+0.0.0.0 www.mac.com-w.net
 0.0.0.0 www.macombdisplayads.com
 0.0.0.0 www.market-buster.com
 0.0.0.0 www.marketing-rewardpath.com
@@ -9873,6 +9928,7 @@
 0.0.0.0 www.nysubwayoffer.com
 0.0.0.0 www.offerx.co.uk
 0.0.0.0 www.oinadserve.com
+0.0.0.0 www.onclicktop.com
 0.0.0.0 www.onlinebestoffers.net
 0.0.0.0 www.ontheweb.com
 0.0.0.0 www.opendownload.de
@@ -9880,6 +9936,7 @@
 0.0.0.0 www.optiad.net
 0.0.0.0 www.paperg.com
 0.0.0.0 www.parsads.com
+0.0.0.0 www.partner.googleadservices.com
 0.0.0.0 www.partycasino.com
 0.0.0.0 www.pathforpoints.com
 0.0.0.0 www.paypopup.com
@@ -9916,6 +9973,7 @@
 0.0.0.0 www.pureadexchange.com
 0.0.0.0 www.qitrck.com
 0.0.0.0 www.quickbrowsersearch.com
+0.0.0.0 www.quickcash-system.com
 0.0.0.0 www.radiate.com
 0.0.0.0 www.rankyou.com
 0.0.0.0 www.ravel-rewardpath.com
@@ -10047,6 +10105,7 @@
 0.0.0.0 www.trendsonline.biz
 0.0.0.0 www.trendsonline.me
 0.0.0.0 www.trendsonline.mobi
+0.0.0.0 www.trkfl.com
 0.0.0.0 www.trndsys.mobi
 0.0.0.0 www.ttnet.yandex.com.tr
 0.0.0.0 www.turn.com
@@ -10115,6 +10174,7 @@
 0.0.0.0 www.youripad4free.com
 0.0.0.0 www.yourrewardzone.com
 0.0.0.0 www.yoursmartrewards.com
+0.0.0.0 www.zbippirad.info
 0.0.0.0 www.zemgo.com
 0.0.0.0 www.zevents.com
 0.0.0.0 www.zlothonline.info
@@ -10124,6 +10184,7 @@
 0.0.0.0 xaxis.com
 0.0.0.0 x.azjmp.com
 0.0.0.0 x.bidswitch.net
+0.0.0.0 xch.smrtgs.com
 0.0.0.0 x.iasrv.com
 0.0.0.0 x.interia.pl
 0.0.0.0 xlivehost.com
@@ -10179,6 +10240,7 @@
 0.0.0.0 zevents.com
 0.0.0.0 zhalehziba.com
 0.0.0.0 zlothonline.info
+0.0.0.0 z.moatads.com
 0.0.0.0 zuzzer5.com
 #</ad-sites>
 
@@ -10189,7 +10251,6 @@
 0.0.0.0 cya2.net
 0.0.0.0 i.ligatus.com
 0.0.0.0 images.revtrax.com
-0.0.0.0 pof.com
 0.0.0.0 shorte.st
 0.0.0.0 src.kitcode.net
 0.0.0.0 stat.ringier.cz
@@ -12268,51 +12329,58 @@
 
 #<Windows10>
 
-# Windows 10 reporting domains. These are commented out by default
-#	as they may interfere with some services.
-
-#0.0.0.0 a-0001.a-msedge.net
-#0.0.0.0 choice.microsoft.com
-#0.0.0.0 choice.microsoft.com.nstac.net
-#0.0.0.0 compatexchange.cloudapp.net
-#0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
-#0.0.0.0 corp.sts.microsoft.com
-#0.0.0.0 cs1.wpc.v0cdn.net
-#0.0.0.0 df.telemetry.microsoft.com
-#0.0.0.0 diagnostics.support.microsoft.com
-#0.0.0.0 fe2.update.microsoft.com.akadns.net
-#0.0.0.0 feedback.search.microsoft.com
-#0.0.0.0 feedback.windows.com
-#0.0.0.0 i1.services.social.microsoft.com
-#0.0.0.0 i1.services.social.microsoft.com.nsatc.net
-#0.0.0.0 oca.telemetry.microsoft.com
-#0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
-#0.0.0.0 pre.footprintpredict.com
-#0.0.0.0 redir.metaservices.microsoft.com
-#0.0.0.0 reports.wes.df.telemetry.microsoft.com
-#0.0.0.0 services.wes.df.telemetry.microsoft.com
-#0.0.0.0 settings-sandbox.data.microsoft.com
-#0.0.0.0 sls.update.microsoft.com.akadns.net
-#0.0.0.0 sqm.df.telemetry.microsoft.com
-#0.0.0.0 sqm.telemetry.microsoft.com
-#0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
-#0.0.0.0 ssw.live.com
-#0.0.0.0 statsfe1.ws.microsoft.com
-#0.0.0.0 statsfe2.update.microsoft.com.akadns.net
-#0.0.0.0 survey.watson.microsoft.com
-#0.0.0.0 telecommand.telemetry.microsoft.com
-#0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
-#0.0.0.0 telemetry.appex.bing.net
-#0.0.0.0 telemetry.microsoft.com
-#0.0.0.0 telemetry.urs.microsoft.com
-#0.0.0.0 vortex.data.microsoft.com
-#0.0.0.0 vortex-sandbox.data.microsoft.com
-#0.0.0.0 vortex-win.data.microsoft.com
-#0.0.0.0 watson.live.com
-#0.0.0.0 watson.microsoft.com
-#0.0.0.0 watson.ppe.telemetry.microsoft.com
-#0.0.0.0 watson.telemetry.microsoft.com
-#0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
+# Windows 10 reporting domains. 
+0.0.0.0 a-0001.a-msedge.net
+0.0.0.0 a-0002.a-msedge.net
+0.0.0.0 a-0003.a-msedge.net
+0.0.0.0 a-0004.a-msedge.net
+0.0.0.0 a-0005.a-msedge.net
+0.0.0.0 a-0006.a-msedge.net
+0.0.0.0 a-0007.a-msedge.net
+0.0.0.0 a-0008.a-msedge.net
+0.0.0.0 a-0009.a-msedge.net
+0.0.0.0 a.ads2.msads.net
+0.0.0.0 a.ads2.msn.com
+0.0.0.0 adnexus.net
+0.0.0.0 aidps.atdmt.com
+0.0.0.0 a-msedge.net
+0.0.0.0 apps.skype.com
+0.0.0.0 az361816.vo.msecnd.net
+0.0.0.0 az512334.vo.msecnd.net
+0.0.0.0 b.ads1.msn.com
+0.0.0.0 b.ads2.msads.net
+0.0.0.0 c.atdmt.com
+0.0.0.0 cdn.atdmt.com
+0.0.0.0 cds26.ams9.msecn.net
+0.0.0.0 c.msn.com
+0.0.0.0 db3aqu.atdmt.com
+0.0.0.0 ec.atdmt.com
+0.0.0.0 fe2.update.microsoft.com.akadns.net
+0.0.0.0 feedback.microsoft-hohm.com
+0.0.0.0 flex.msn.com
+0.0.0.0 g.msn.com
+0.0.0.0 h1.msn.com
+0.0.0.0 lb1.www.ms.akadns.net
+0.0.0.0 live.rads.msn.com
+0.0.0.0 m.adnxs.com
+0.0.0.0 m.hotmail.com
+0.0.0.0 msedge.net
+0.0.0.0 msftncsi.com
+0.0.0.0 msnbot-65-55-108-23.search.msn.com
+0.0.0.0 msntest.serving-sys.com
+0.0.0.0 preview.msn.com
+0.0.0.0 pricelist.skype.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 schemas.microsoft.akadns.net
+0.0.0.0 secure.flashtalking.com
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 s.gateway.messenger.live.com
+0.0.0.0 sO.2mdn.net
+0.0.0.0 statsfe2.ws.microsoft.com
+0.0.0.0 telemetry.appex.bing.net:443
+0.0.0.0 ui.skype.com
+0.0.0.0 wes.df.telemetry.microsoft.com
+0.0.0.0 www.msftncsi.com
 #</Windows10>
 
 # Acknowledgements
