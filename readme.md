@@ -1,13 +1,13 @@
-#Unified hosts file 
+#Unified hosts file with gambling, porn extensions
 
 This repository consolidates several reputable `hosts` files, and merges them into a single unified hosts file
 with duplicates removed.
 
 **Expectation**: This unified hosts file should serve all devices, regardless of OS.
 
-* Last updated: **March 13 2016**.
-* Extensions: **none**.
-* Contains: **27,254 unique entries**.
+* Last updated: **March 15 2016**.
+* Extensions: **gambling, porn**.
+* Contains: **33,223 unique entries**.
 
 See the [`alternates` folder](https://github.com/StevenBlack/hosts/tree/master/alternates) for variants of this hosts
 file, extended in different ways.
