@@ -1,5 +1,4 @@
 # Custom host records are listed here.
-
 #Defaults
 
 127.0.0.1	localhost
@@ -31,7 +30,6 @@ ff02::2 ip6-allrouters
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 pubads.g.doubleclick.net
-
 0.0.0.0 audio-sp-ash.spotify.com
 
 # End of custom host records.
