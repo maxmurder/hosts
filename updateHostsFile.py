@@ -81,7 +81,7 @@ UPDATE_URL_FILENAME = 'update.info'
 SOURCES             = listdir_nohidden(DATA_PATH)
 EXTENSIONS          = listdir_nohidden(EXTENSIONS_PATH)
 README_TEMPLATE     = os.path.join(BASEDIR_PATH, 'readme_template.md')
-README_FILE         = os.path.join(BASEDIR_PATH, 'readme.md')
+README_FILENAME     = 'readme.md'
 WHITELIST_FILE      = os.path.join(BASEDIR_PATH, 'whitelist')
 
 # Exclusions
@@ -91,9 +91,11 @@ EXCLUSIONS        = []
 COMMON_EXCLUSIONS = ['hulu.com']
 
 # Global vars
+outputPath = BASEDIR_PATH
 exclusionRegexs = []
-numberOfRules   = 0
+numberOfRules = 0
 auto = False
+update = True
 replace = False
 targetIP = "0.0.0.0"
 extensions = []
@@ -105,17 +107,23 @@ def main():
     parser.add_argument("--replace", "-r", dest="replace", default=False, action='store_true', help="Replace your active hosts file with this new hosts file.")
     parser.add_argument("--ip", "-i", dest="targetIP", default="0.0.0.0", help="Target IP address. Default is 0.0.0.0.")
     parser.add_argument("--extensions", "-e", dest="extensions", default=[], nargs='*', help="Host extensions to include in the final hosts file.")
+    parser.add_argument("--output", "-o", dest="outputSubFolder", default="", help="Output subfolder for generated hosts file.")
+    parser.add_argument("--noupdate", "-n", dest="noUpdate", default=False, action='store_true', help="Don't update from host data sources.")
+
+
     args = parser.parse_args()
 
-    global auto, targetIP, extensions, replace
+    global auto, update, replace, targetIP, replace, extensions, outputPath
     auto = args.auto
     replace = args.replace
     targetIP = args.targetIP
+    outputPath = os.path.join(BASEDIR_PATH, args.outputSubFolder)
+    update = not args.noUpdate
 
     # All our extensions folders...
     extensions = [os.path.basename(item) for item in listdir_nohidden(EXTENSIONS_PATH)]
-    # ... intersected with the extensions passed-in as arguments
-    extensions = list(set(args.extensions).intersection(extensions))
+    # ... intersected with the extensions passed-in as arguments, then sorted.
+    extensions = sorted( list(set(args.extensions).intersection(extensions)) )
 
     promptForUpdate()
     promptForExclusions()
@@ -124,7 +132,7 @@ def main():
     finalFile = removeDupsAndExcl(mergeFile)
     finalizeFile(finalFile)
     updateReadme(numberOfRules)
-    printSuccess('Success! Your new hosts file has been prepared.\nIt contains ' +
+    printSuccess('Success! The hosts file has been saved in folder\n' + outputPath + '\nIt contains ' +
                  "{:,}".format(numberOfRules) + ' unique entries.')
 
     promptForMove(finalFile)
@@ -139,7 +147,7 @@ def promptForUpdate():
             printFailure("ERROR: No 'hosts' file in the folder, try creating one manually")
 
     response = "yes" if auto else query_yes_no("Do you want to update all data sources?")
-    if response == "yes":
+    if response == "yes" and update:
         updateAllSources()
     else:
         if not auto:
@@ -280,10 +288,16 @@ def removeDupsAndExcl(mergeFile):
                 if line.rstrip():
                     EXCLUSIONS.append(line)
 
-    # Another mode is required to read and write the file in Python 3
-    finalFile = open(os.path.join(BASEDIR_PATH, 'hosts'), 'r+b')
-    mergeFile.seek(0) # reset file pointer
+    if not os.path.exists(outputPath):
+        os.makedirs(outputPath)
 
+    # Another mode is required to read and write the file in Python 3
+    if Python3:
+        finalFile = open(os.path.join(outputPath, 'hosts'), 'w+b')
+    else:
+        finalFile = open(os.path.join(outputPath, 'hosts'), 'w+')
+
+    mergeFile.seek(0) # reset file pointer
     hostnames = set()
     hostnames.add("localhost")
     hostnames.add("localhost.localdomain")
@@ -377,9 +391,17 @@ def writeOpeningHeader(finalFile):
     finalFile.write(fileContents)
 
 def updateReadme(numberOfRules):
-    with open(README_FILE, "wt") as out:
+    extensionsStr = "* Extensions: **none**."
+    extensionsHeader = ""
+    if extensions:
+      extensionsStr = "* Extensions: **" + ", ".join(extensions) + "**."
+      extensionsHeader = "with "+ ", ".join(extensions) + " extensions"
+
+    with open(os.path.join(outputPath,README_FILENAME), "wt") as out:
         for line in open(README_TEMPLATE):
             line = line.replace( '@GEN_DATE@', time.strftime("%B %d %Y", time.gmtime()))
+            line = line.replace( '@EXTENSIONS@', extensionsStr )
+            line = line.replace( '@EXTENSIONS_HEADER@', extensionsHeader )
             out.write(line.replace('@NUM_ENTRIES@', "{:,}".format(numberOfRules)))
 
 def moveHostsFileIntoPlace(finalFile):

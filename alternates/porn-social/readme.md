@@ -1,13 +1,13 @@
-#Unified hosts file @EXTENSIONS_HEADER@
+#Unified hosts file with porn, social extensions
 
 This repository consolidates several reputable `hosts` files, and merges them into a single unified hosts file
 with duplicates removed.
 
 **Expectation**: This unified hosts file should serve all devices, regardless of OS.
 
-* Last updated: **@GEN_DATE@**.
-@EXTENSIONS@
-* Contains: **@NUM_ENTRIES@ unique entries**.
+* Last updated: **March 13 2016**.
+* Extensions: **porn, social**.
+* Contains: **32,559 unique entries**.
 
 See the [`alternates` folder](https://github.com/StevenBlack/hosts/tree/master/alternates) for variants of this hosts
 file, extended in different ways.
