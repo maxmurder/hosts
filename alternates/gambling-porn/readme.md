@@ -6,9 +6,7 @@ with duplicates removed.
 * Here's the [raw hosts file](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts) containing 32,855 entries.
 * Last updated: **March 27 2016**.
 
-* Last updated: **March 15 2016**.
-* Extensions: **gambling, porn**.
-* Contains: **33,223 unique entries**.
+### List of all hosts file variants
 
 Host file recipe | Readme | Raw hosts | Unique domains
 ---------------- |:------:|:---------:|:-------------:
