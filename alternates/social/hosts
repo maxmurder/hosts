@@ -2,9 +2,10 @@
 # with a dash of crowd sourcing via Github
 #
 # Date: March 27 2016
-# Number of unique domains: 26,890
+# Extensions added to this file: social
+# Number of unique domains: 26,998
 #
-# Fetch the latest version of this file: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+# Fetch the latest version of this file: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts
 # Project home page: https://github.com/StevenBlack/hosts
 #
 # ===============================================================
@@ -29136,3 +29137,120 @@ fe80::1%lo0 localhost
 0.0.0.0 zeusclicks.com
 0.0.0.0 zintext.com
 0.0.0.0 zmedia.com
+# Facebook
+0.0.0.0 api.ak.facebook.com
+0.0.0.0 api.connect.facebook.com
+0.0.0.0 api.facebook.com
+0.0.0.0 app.facebook.com
+0.0.0.0 apps.facebook.com
+0.0.0.0 ar-ar.facebook.com
+0.0.0.0 badge.facebook.com
+0.0.0.0 blog.facebook.com
+0.0.0.0 connect.facebook.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 de-de.facebook.com
+0.0.0.0 developers.facebook.com
+0.0.0.0 es-la.facebook.com
+0.0.0.0 external.ak.fbcdn.net
+0.0.0.0 facebook.com
+0.0.0.0 facebook.de
+0.0.0.0 facebook.fr
+0.0.0.0 fb.me
+0.0.0.0 fbcdn.com
+0.0.0.0 fbcdn.net
+0.0.0.0 fr-fr.facebook.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 hi-in.facebook.com
+0.0.0.0 it-it.facebook.com
+0.0.0.0 ja-jp.facebook.com
+0.0.0.0 login.facebook.com
+0.0.0.0 newsroom.fb.com
+0.0.0.0 photos-b.ak.fbcdn.net
+0.0.0.0 photos-f.ak.fbcdn.net
+0.0.0.0 profile.ak.fbcdn.net
+0.0.0.0 pt-br.facebook.com
+0.0.0.0 sphotos-a.xx.fbcdn.net
+0.0.0.0 ssl.connect.facebook.com
+0.0.0.0 staticxx.facebook.com
+0.0.0.0 static.ak.connect.facebook.com
+0.0.0.0 static.ak.fbcdn.net
+0.0.0.0 www.connect.facebook.net
+0.0.0.0 www.facebook.com
+0.0.0.0 www.facebook.de
+0.0.0.0 www.facebook.fr
+0.0.0.0 www.fbcdn.com
+0.0.0.0 www.fbcdn.net
+0.0.0.0 www.login.facebook.com
+0.0.0.0 zh-cn.facebook.com
+
+# Twitter
+0.0.0.0 www.twitter.com
+0.0.0.0 twitter.com
+0.0.0.0 pbs.twimg.com
+0.0.0.0 abs.twimg.com
+0.0.0.0 syndication.twitter.com
+
+# Instagram
+0.0.0.0 igcdn-photos-aa.akamaihd.net
+0.0.0.0 igcdn-photos-ba.akamaihd.net
+0.0.0.0 igcdn-photos-ca.akamaihd.net
+0.0.0.0 igcdn-photos-da.akamaihd.net
+0.0.0.0 igcdn-photos-ea.akamaihd.net
+0.0.0.0 igcdn-photos-fa.akamaihd.net
+0.0.0.0 igcdn-photos-ga.akamaihd.net
+0.0.0.0 igcdn-photos-ha.akamaihd.net
+0.0.0.0 instagram.com
+0.0.0.0 scontent-iad3-1.cdninstagram.com
+0.0.0.0 scontent.cdninstagram.com
+0.0.0.0 www.instagram.com
+
+# LinkedIn
+0.0.0.0 static.licdn.com
+0.0.0.0 www.linkedin.com
+0.0.0.0 media.licdn.com
+0.0.0.0 platform.linkedin.com
+
+# MySpace
+0.0.0.0 browseusers.myspace.com
+0.0.0.0 classifieds.myspace.com
+0.0.0.0 collect.myspace.com
+0.0.0.0 events.myspace.com
+0.0.0.0 favorites.myspace.com
+0.0.0.0 forum.myspace.com
+0.0.0.0 groups.myspace.com
+0.0.0.0 home.myspace.com
+0.0.0.0 invite.myspace.com
+0.0.0.0 linux.myspace.com
+0.0.0.0 log.myspace.com
+0.0.0.0 login.myspace.com
+0.0.0.0 mail.myspace.com
+0.0.0.0 message.myspace.com
+0.0.0.0 messages.myspace.com
+0.0.0.0 music.myspace.com
+0.0.0.0 mx2.myspace.com
+0.0.0.0 myspace.com
+0.0.0.0 ns1.myspace.com
+0.0.0.0 ns2.myspace.com
+0.0.0.0 profile.myspace.com
+0.0.0.0 rio.myspace.com
+0.0.0.0 search.myspace.com
+0.0.0.0 security.myspace.com
+0.0.0.0 signup.myspace.com
+0.0.0.0 videos.myspace.com
+0.0.0.0 vids.myspace.com
+0.0.0.0 viewmorepics.myspace.com
+0.0.0.0 vmta01.myspace.com
+0.0.0.0 vmta02.myspace.com
+0.0.0.0 vmta03.myspace.com
+0.0.0.0 vmta04.myspace.com
+0.0.0.0 vmta05.myspace.com
+0.0.0.0 vmta06.myspace.com
+0.0.0.0 vmta07.myspace.com
+0.0.0.0 vmta08.myspace.com
+0.0.0.0 vmta09.myspace.com
+0.0.0.0 vmta10.myspace.com
+0.0.0.0 vmta11.myspace.com
+0.0.0.0 vmta12.myspace.com
+0.0.0.0 vmta13.myspace.com
+0.0.0.0 www.myspace.com
+0.0.0.0 www1.myspace.com
