@@ -1,14 +1,5 @@
 # Custom host records are listed here.
 
-#Defaults
-
-127.0.0.1	localhost
-127.0.0.1	localhost.localdomain
-255.255.255.255	broadcasthost
-::1		localhost
-127.0.0.1	local
-#fe80::1%lo0	localhost
-
 # Spotify
 0.0.0.0 media-match.com
 0.0.0.0 open.spotify.com
