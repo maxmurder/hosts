@@ -1,4 +1,4 @@
-#Unified hosts file with base extensions
+#Unified hosts file with gambling, porn extensions
 
 This repository consolidates several reputable `hosts` files, and merges them into various unified hosts files
 with duplicates removed.
@@ -6,7 +6,9 @@ with duplicates removed.
 * Here's the [raw hosts file](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) containing 26,890 entries.
 * Last updated: **March 27 2016**.
 
-### List of all hosts file variants
+* Last updated: **March 15 2016**.
+* Extensions: **gambling, porn**.
+* Contains: **33,223 unique entries**.
 
 Host file recipe | Readme | Raw hosts | Unique domains
 ---------------- |:------:|:---------:|:-------------:

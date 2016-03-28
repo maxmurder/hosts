@@ -6,7 +6,9 @@ with duplicates removed.
 * Here's the [raw hosts file](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts) containing 32,248 entries.
 * Last updated: **March 27 2016**.
 
-### List of all hosts file variants
+* Last updated: **March 15 2016**.
+* Extensions: **porn, social**.
+* Contains: **32,618 unique entries**.
 
 Host file recipe | Readme | Raw hosts | Unique domains
 ---------------- |:------:|:---------:|:-------------:
