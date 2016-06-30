@@ -17,5 +17,10 @@
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 audio-sp-ash.spotify.com
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 gads.pubmatic.com
+0.0.0.0 ads.pubmatic.com
+0.0.0.0 spclient.wg.spotify.com
 
 # End of custom host records.
